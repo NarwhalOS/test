@@ -1,0 +1,8 @@
+os.pullEvent = os.pullEventRaw --No ctrl + T!
+while true do
+s = ""
+for i=1, 50 do
+s = s..math.random(0,1)
+end
+write(s)
+sleep(0
